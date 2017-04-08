@@ -7,18 +7,89 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="extra.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="extra.js"></script>
     <link href="favicon.ico" rel="icon" type="image/x-icon"/>
-    <title>
-    </title>
+    <title>Portfolio</title>
   </head>  
   <body>
     <div class="container-fluid">
       <div class="col-xs-12 intro">
         <img src="avatar.jpg" class="img-responsive center-block">
-        <h2 class="text-primary text-center">Adarsh S</h2>
+        <h2 class="text-center" id="name" style="color:#444">Adarsh S</h2>
         <p class="text-center text-muted">Computer Science Undergraduate</p>
-        <button class="btn btn-muted center-block" style="padding: 10px 40px">More</button>
+        <button class="btn btn-muted center-block" style="padding: 10px 40px" onclick="layer2()">More</button>
       </div>
     </div>
+
+
+    <div id="layer-two" style="display:none">
+      <div class="layer-two-center">
+        <h2 class="text-primary" style="color:#444">About me</h2>
+        <button class="btn btn-muted center-block" style="padding: 10px 40px;" onclick="layer3()">Still more? You stalker!</h2>
+      </div>
+
+      <div class="layer-two-right">
+        <h3 class="text-center text-primary">Accomplishments</h3>
+        <ul>
+          <li>Mentored highshcool students for Google Code-in.</li>
+          <li>Developing fullscale dynamic website for Nummade-Kochi.</li>
+          <li>Contributed for Zulip(Open Source) for three months.</li>
+          <li>Helping starting up FOSS club at MEC.</li>
+        </ul>
+      </div>
+
+      <div class="layer-two-left">
+        <h3 class="text-center text-primary">Skills</h3>
+        <ul>
+          <li>
+            <p>Python</p>
+            <div class="w3-light-grey">
+              <div class="w3-green" style="height:24px;width:90%"></div>
+            </div><br>
+          </li>
+          <li>
+            <p>Django</p>
+            <div class="w3-light-grey">
+              <div class="w3-blue" style="height:24px;width:75%"></div>
+            </div><br>
+          </li>
+          <li>
+            <p>SQL</p>
+            <div class="w3-light-grey">
+              <div class="w3-red" style="height:24px;width:50%"></div>
+            </div><br>
+          </li>
+
+          <li>
+            <p>HTML/CSS</p>
+            <div class="w3-light-grey">
+              <div class="w3-black" style="height:24px;width:60%"></div>
+            </div><br>
+          </li>
+          <li>
+            <p>C/C++</p>
+            <div class="w3-light-grey">
+              <div class="w3-indigo" style="height:24px;width:40%"></div>
+            </div><br>
+          </li>
+          <li>
+            <p>Javascript</p>
+            <div class="w3-light-grey">
+              <div class="w3-brown" style="height:24px;width:25%"></div>
+            </div><br>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="layer-three" style="display:none">
+      <h2 style="text-align:center; position:relative; bottom:-400px; color: #444">More self praising.</h2>
+      <div class="layer-three-center center-block">
+        <h3 class="text-primary text-center">Contact me</h3>
+      </div>
+
+    </div>
+
   </body>
 </html>

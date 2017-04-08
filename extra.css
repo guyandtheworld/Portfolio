@@ -1,12 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Allerta Stencil);
 
 .intro {
-    position: fixed;
-    top: 50%;
+    position: relative;
+    top: 300px;
     left: 50%;
     margin-top: -200px;
-    margin-left: -250px;
+    margin-left: -600px;
     box-shadow: 3px 3px 10px 5px #ccc;
-    width: 500px;
+    width: 1200px;
     border-radius: 25px;
     padding: 20px;
 }
@@ -18,3 +19,70 @@
     border-radius: 100%;
 }
 
+.layer-two-center {
+    text-align: center;
+    position: relative;
+    bottom: -330px;
+}
+
+.layer-two-right {
+    width:560px;
+    height: 400px;
+    box-shadow: 3px 3px 10px 5px #ccc;
+    position: relative;
+    bottom: -350px;
+    float: right;
+    margin: 20px 70px 20px 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.layer-two-right ul {
+    list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding: 20px;
+}
+
+.layer-two-right li {
+    margin: 20px 20px 20px 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+
+.layer-two-left {
+    width:560px;
+    height: 400px;
+    box-shadow: 3px 3px 10px 5px #ccc;
+    position: relative;
+    bottom: -350px;
+    margin: 20px 20px 20px 70px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.layer-two-left ul {
+    list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding: 20px;
+}
+
+.layer-two-left li {
+    margin: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+.layer-three-center {
+    width: 1200px;
+    position: relative;
+    bottom: -400px;
+    box-shadow: 3px 3px 10px 5px #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
