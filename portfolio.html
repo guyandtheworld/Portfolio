@@ -15,87 +15,95 @@
     <title>Portfolio</title>
   <body>
     <div class="container-fluid">
-      <div class="col-xs-12 intro">
-        <img src="avatar.jpg" class="img-responsive center-block">
-        <h2 class="text-center" id="name" style="color:#444">Adarsh S</h2>
-        <p class="text-center text-muted">Computer Science Undergraduate</p>
-        <button class="btn btn-primary center-block" style="padding: 10px 40px" onclick="layer2()">More</button>
+      <div class="col-xs-12">
+        <div class="intro">
+          <img src="avatar.jpg" class="img-responsive center-block">
+          <h2 class="text-center" id="name" style="color:#444">Adarsh S</h2>
+          <p class="text-center text-muted">Computer Science Undergraduate</p>
+          <button class="btn btn-primary center-block" style="padding: 10px 40px" onclick="layer2()">More</button>
+        </div>  
       </div>
     </div>
 
+      <div id="layer-two" style="display:none">
+        <div class="layer-two-center">
+          <div class="col-xs-12">
+          <h2 class="text-primary" style="color:#444">About me</h2>
+          </div>
+        </div>
 
-    <div id="layer-two" style="display:none">
-      <div class="layer-two-center">
-        <h2 class="text-primary" style="color:#444">About me</h2>
+      <div class="container-fluid"> 
+        <div class="layer-two-right col-xs-6">
+          <h3 class="text-center text-primary">Accomplishments</h3>
+          <ul>
+            <li>Mentored highshcool students for Google Code-in.</li>
+            <li>Developing fullscale dynamic website for Nummade-Kochi.</li>
+            <li>Contributed for Zulip(Open Source) for three months.</li>
+            <li>Helping starting up FOSS club at MEC.</li>
+          </ul>
+        </div>
+        <div class="layer-two-left col-xs-6">
+          <h3 class="text-center text-primary">Skills</h3>
+          <ul>
+            <li>
+              <p>Python</p>
+              <div class="w3-light-grey">
+                <div class="w3-green" style="height:24px;width:90%;border-radius:5px"></div>
+              </div><br>
+            </li>
+            <li>
+              <p>Django</p>
+              <div class="w3-light-grey">
+                <div class="w3-blue" style="height:24px;width:75%;border-radius:5px"></div>
+              </div><br>
+            </li>
+            <li>
+              <p>SQL</p>
+              <div class="w3-light-grey">
+                <div class="w3-red" style="height:24px;width:50%;border-radius:5px"></div>
+              </div><br>
+            </li>
+
+            <li>
+              <p style="padding-top: 20px">HTML/CSS</p>
+              <div class="w3-light-grey">
+                <div class="w3-black" style="height:24px;width:60%;border-radius:5px"></div>
+              </div><br>
+            </li>
+            <li>
+              <p>C/C++</p>
+              <div class="w3-light-grey">
+                <div class="w3-indigo" style="height:24px;width:40%;border-radius:5px"></div>
+              </div><br>
+            </li>
+            <li>
+              <p>Javascript</p>
+              <div class="w3-light-grey">
+                <div class="w3-brown" style="height:24px;width:25%;border-radius:5px"></div>
+              </div><br>
+            </li>
+          </ul>
+        </div>
+        </div>
+        <div class="col-xs-12">
+          <button class="btn btn-primary" style="padding: 10px 40px;position:relative; bottom:-380px; margin-left:41%; " onclick="layer3()">Still more? You stalker!</h2>
+        </button>
       </div>
-
-      <div class="layer-two-right">
-        <h3 class="text-center text-primary">Accomplishments</h3>
-        <ul>
-          <li>Mentored highshcool students for Google Code-in.</li>
-          <li>Developing fullscale dynamic website for Nummade-Kochi.</li>
-          <li>Contributed for Zulip(Open Source) for three months.</li>
-          <li>Helping starting up FOSS club at MEC.</li>
-        </ul>
-      </div>
-
-      <div class="layer-two-left">
-        <h3 class="text-center text-primary">Skills</h3>
-        <ul>
-          <li>
-            <p>Python</p>
-            <div class="w3-light-grey">
-              <div class="w3-green" style="height:24px;width:90%;border-radius:5px"></div>
-            </div><br>
-          </li>
-          <li>
-            <p>Django</p>
-            <div class="w3-light-grey">
-              <div class="w3-blue" style="height:24px;width:75%;border-radius:5px"></div>
-            </div><br>
-          </li>
-          <li>
-            <p>SQL</p>
-            <div class="w3-light-grey">
-              <div class="w3-red" style="height:24px;width:50%;border-radius:5px"></div>
-            </div><br>
-          </li>
-
-          <li>
-            <p style="padding-top: 20px">HTML/CSS</p>
-            <div class="w3-light-grey">
-              <div class="w3-black" style="height:24px;width:60%;border-radius:5px"></div>
-            </div><br>
-          </li>
-          <li>
-            <p>C/C++</p>
-            <div class="w3-light-grey">
-              <div class="w3-indigo" style="height:24px;width:40%;border-radius:5px"></div>
-            </div><br>
-          </li>
-          <li>
-            <p>Javascript</p>
-            <div class="w3-light-grey">
-              <div class="w3-brown" style="height:24px;width:25%;border-radius:5px"></div>
-            </div><br>
-          </li>
-        </ul>
-      </div>
-      <button class="btn btn-primary" style="padding: 10px 40px;position:relative; bottom:-380px; margin-left:41%; " onclick="layer3()">Still more? You stalker!</h2>
-    </div>
     <br>
 
     <div id="layer-three" style="display:none">
-      <h2 style="text-align:center; position:relative; bottom:-400px; color: #444">More self praising.</h2>
-      <div class="layer-three-center center-block">
-        <h3 class="text-primary text-center" style="margin-bottom: 20px">Contact me</h3>
-        <ul>
-          <li><i class="fa fa-github" style="font-size:36px"></i></li>
-          <li><i class="fa fa-free-code-camp" style="font-size:36px"></i></li>
-          <li><i class="fa fa-facebook-square" style="font-size:36px"></i></li>
-          <li><i class="fa fa-instagram" style="font-size:36px"></i></li>
-          <li><i class="fa fa-linkedin" style="font-size:36px"></i></li>
-        </ul>
+      <div class="col-xs-12">
+        <h2 style="text-align:center; position:relative; bottom:-400px; color: #444">More self praising.</h2>
+        <div class="layer-three-center center-block">
+          <h3 class="text-primary text-center" style="margin-bottom: 20px">Contact me</h3>
+          <ul>
+            <li><i class="fa fa-github" style="font-size:36px"></i></li>
+            <li><i class="fa fa-free-code-camp" style="font-size:36px"></i></li>
+            <li><i class="fa fa-facebook-square" style="font-size:36px"></i></li>
+            <li><i class="fa fa-instagram" style="font-size:36px"></i></li>
+            <li><i class="fa fa-linkedin" style="font-size:36px"></i></li>
+          </ul>
+        </div>
       </div>
     </div>
     <br>

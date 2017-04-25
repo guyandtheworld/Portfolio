@@ -28,9 +28,8 @@
     height: 400px;
     box-shadow: 3px 3px 10px 5px #ccc;
     position: relative;
-    bottom: -340px;
-    float: right;
-    margin: 20px 70px 20px 20px;
+    bottom: -350px;
+    margin: 20px 20px 20px 60px;
     padding: 20px;
     border-radius: 25px;
 }
@@ -52,7 +51,7 @@
     box-shadow: 3px 3px 10px 5px #ccc;
     position: relative;
     bottom: -350px;
-    margin: 20px 20px 20px 70px;
+    margin: 20px 20px 20px 60px;
     padding: 20px;
     border-radius: 25px;
 }
